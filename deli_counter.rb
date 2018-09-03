@@ -25,3 +25,5 @@ def now_serving(array)
     array.shift
   end
 end
+
+line(katz_deli)
