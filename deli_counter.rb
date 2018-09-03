@@ -1,8 +1,8 @@
 katz_deli = []
 
-def line(line="empty.")
+def line(deli ="empty.")
   order = "The line is currently:"
-  p "#{order}" + line.each_with_index{|name, index| p " #{index+1}. name"}
+  p "#{order}" + deli.each_with_index{|name, index| p " #{index+1}. name"}
 end
 
 #def take_a_number()
