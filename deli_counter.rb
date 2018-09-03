@@ -1,4 +1,4 @@
-katz_deli = []
+katz_deli = ["james"]
 
 def line(array)
     if array.empty?
@@ -8,7 +8,7 @@ def line(array)
       #array.each.with_index(1) do |index, person| 
      # q.push("#{person}. #{index}")
       puts "The line is currently:" 
-           array.each_with_index {|name, index| puts " #{index+1}. #{name}"
+      array.each_with_index {|name, index| puts " #{index+1}. #{name}"
   end
 end
 
