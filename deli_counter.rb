@@ -14,7 +14,7 @@ def take_a_number(array)
     count = [0]
     i = count[-1]
     number = count.push(i+1)
-    array.push(number)
+    array.push(count[-1])
     puts "Welcome! You are number #{array[-1]}."
 end 
 
