@@ -7,7 +7,7 @@ def line(array)
       #q = []
       #array.each.with_index(1) do |index, person| 
      # q.push("#{person}. #{index}")
-      puts "The line is currently:" 
+      print "The line is currently:" 
       array.each_with_index{|name, index| print " #{index+1}. #{name}"}
   end
 end
