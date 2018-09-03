@@ -4,11 +4,12 @@ def line(array)
     if array.empty?
       puts "The line is currently empty."
     else
-      q = []
-      array.each.with_index(1) do |index, person| 
-      q.push("#{person}. #{index}")
+      #q = []
+      #array.each.with_index(1) do |index, person| 
+     # q.push("#{person}. #{index}")
     end
-      puts "The line is currently: " + q.join(" ") 
+      puts "The line is currently:" 
+           array.each_with_index {|name, index| puts " #{index+1}. #{name}"
   end
 end
 
