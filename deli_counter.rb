@@ -1,4 +1,5 @@
 katz_deli = []
+counter = []
 
 def line(array)
     if array.length < 1
@@ -10,10 +11,10 @@ def line(array)
   end
 end
 
-def take_a_number(array)
+def take_a_number(array, count)
     count = [0]
     i = count[-1]
-    number = count.push(i+1)
+    count.push(i+1)
     array.push(count[-1])
     puts "Welcome! You are number #{array[-1]}."
 end 
@@ -26,6 +27,6 @@ def now_serving(array)
   end
 end
 
-take_a_number(katz_deli)
-take_a_number(katz_deli)
-take_a_number(katz_deli)
+take_a_number(katz_deli, counter)
+take_a_number(katz_deli, counter)
+take_a_number(katz_deli, counter)
