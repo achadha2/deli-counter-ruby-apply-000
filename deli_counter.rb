@@ -4,9 +4,6 @@ def line(array)
     if array.length < 1
       puts "The line is currently empty."
     else
-      #q = []
-      #array.each.with_index(1) do |index, person| 
-     # q.push("#{person}. #{index}")
       print "The line is currently:" 
       array.each_with_index{|name, index| print " #{index+1}. #{name}"}
   end
