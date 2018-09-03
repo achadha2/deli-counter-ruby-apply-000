@@ -4,8 +4,8 @@ def line(array)
     if array.length < 1
       puts "The line is currently empty."
     else
-      #print "The line is currently:" 
-      puts "The line is currently:" + array.each_with_index{|name, index| print " #{index+1}. #{name}"}
+      final = "The line is currently:" 
+      array.each_with_index{|name, index| print " #{index+1}. #{name}"}
       puts " "
   end
 end
