@@ -15,7 +15,7 @@ def take_a_number(array)
     i = count[-1]
     number = count.push(i+1)
     array.push(number)
-    puts "Welcome! You are number #{number}."
+    puts "Welcome! You are number #{array[-1]}."
 end 
 
 def now_serving(array)
