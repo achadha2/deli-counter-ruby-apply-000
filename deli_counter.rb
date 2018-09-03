@@ -6,7 +6,7 @@ def line(array)
     else
       final = "The line is currently:" 
       array.each_with_index{|name, index| final += " #{index+1}. #{name}"}
-      puts " "
+      puts final
   end
 end
 
