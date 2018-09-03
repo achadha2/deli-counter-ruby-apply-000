@@ -12,7 +12,7 @@ katz_deli = []
       end
       puts output_string
   end
-end
+
  def take_a_number(line, customer)
   
   line.push(customer)
