@@ -27,7 +27,7 @@ def now_serving(array)
 end
 
 counter = take_a_number(katz_deli, counter)
-take_a_number(katz_deli, counter)
-take_a_number(katz_deli, counter)
+counter = take_a_number(katz_deli, counter)
+counter = take_a_number(katz_deli, counter)
 now_serving(katz_deli)
-take_a_number(katz_deli, counter)
+counter = take_a_number(katz_deli, counter)
