@@ -10,8 +10,8 @@ def line(array)
   end
 end
 
-def take_a_number(array, person)
-    array.push(person)
+def take_a_number(array, number)
+    array.push(number)
     puts "Welcome! You are number #{array.size}."
 end 
 
