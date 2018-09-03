@@ -1,7 +1,7 @@
 katz_deli = ["james"]
 
 def line(array)
-    if array.empty?
+    if array.length < 1
       puts "The line is currently empty."
     else
       #q = []
