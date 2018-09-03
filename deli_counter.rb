@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line(deli ="empty.")
+def line(deli = "empty.")
   #order = "The line is currently:"
   #p "#{order}" + 
   deli.each_with_index{|name, index| puts " #{index+1}. #{name}"}
