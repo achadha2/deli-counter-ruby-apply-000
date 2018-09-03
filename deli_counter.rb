@@ -1,5 +1,5 @@
 katz_deli = []
-counter = 0
+$counter = 0
 
 def line(array)
     if array.length < 1
@@ -11,11 +11,10 @@ def line(array)
   end
 end
 
-def take_a_number(array, count)
-    count += 1
-    array.push(count)
-    puts "Welcome! You are number #{count}."
-    return count
+def take_a_number(array)
+    $count += 1
+    array.push($count)
+    puts "Welcome! You are number #{$count}."
 end 
 
 def now_serving(array)
@@ -26,8 +25,8 @@ def now_serving(array)
   end
 end
 
-counter = take_a_number(katz_deli, counter)
-counter = take_a_number(katz_deli, counter)
-counter = take_a_number(katz_deli, counter)
+take_a_number(katz_deli)
+take_a_number(katz_deli)
+take_a_number(katz_deli)
 now_serving(katz_deli)
-counter = take_a_number(katz_deli, counter)
+take_a_number(katz_deli)
