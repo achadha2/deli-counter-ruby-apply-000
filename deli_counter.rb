@@ -12,9 +12,9 @@ def line(array)
 end
 
 def take_a_number(array)
-    $count += 1
-    array.push($count)
-    puts "Welcome! You are number #{$count}."
+    $counter += 1
+    array.push($counter)
+    puts "Welcome! You are number #{$counter}."
 end 
 
 def now_serving(array)
