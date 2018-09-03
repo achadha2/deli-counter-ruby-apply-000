@@ -1,5 +1,5 @@
 katz_deli = []
-counter = []
+counter = [0]
 
 def line(array)
     if array.length < 1
@@ -12,7 +12,6 @@ def line(array)
 end
 
 def take_a_number(array, count)
-    count = [0]
     i = count[-1]
     count.push(i+1)
     array.push(count[-1])
