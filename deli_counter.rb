@@ -1,4 +1,4 @@
-katz_deli = ["jimmy"]
+katz_deli = []
 
 def line(deli ="empty.")
   #order = "The line is currently:"
