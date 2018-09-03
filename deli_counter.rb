@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(line="empty.")
   order = "The line is currently:"
-  line.each_with_index(|name, index|J)
+  p order + line.each_with_index{|name, index| p }
 end
 
 def take_a_number()
