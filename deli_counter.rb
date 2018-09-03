@@ -12,7 +12,7 @@ end
 
 def take_a_number(array, person)
     array.push(person)
-    puts "Welcome, #{array[-1]}. You are number #{array.size} in line."
+    puts "Welcome! You are number #{array.size}."
 end 
 
 def now_serving(array)
