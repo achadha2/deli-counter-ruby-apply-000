@@ -5,4 +5,6 @@ def line(line="empty.")
   p order + line.each_with_index{|name, index| p " #{index+1}. name"}
 end
 
-def take_a_number()
+#def take_a_number()
+
+line(katz_deli)
