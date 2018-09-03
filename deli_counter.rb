@@ -1,26 +1,27 @@
 katz_deli = []
- def line(input_line)
-  
-  if(input_line.size == 0)
-      puts "The line is currently empty."
-  else
-      output_string = "The line is currently:"
-      counter = 1;
-      input_line.each do |customer|
-        output_string += " #{counter}. #{customer}"
-        counter += 1
-      end
-      puts output_string
-  end
 
- def take_a_number(line, customer)
-  
-  line.push(customer)
-  puts "Welcome, #{customer}. You are number #{(line.size)} in line."  
+def line(array)
+    if array.empty?
+      puts "The line is currently empty."
+    else
+      q = []
+      array.each.with_index(1) do |index, person| 
+      q.push("#{person}. #{index}")
+    end
+      puts "The line is currently: " + q.join(" ") 
+  end
 end
- def now_serving(line)
-  if(line.size == 0)
+
+def take_a_number(array, person)
+    array.push(person)
+    puts "Welcome, #{array[-1]}. You are number #{array.size} in line."
+end 
+
+def now_serving(array)
+  if array.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{line.shift}."
+    puts "Currently serving #{array[0]}."
+    array.shift
   end
+end
