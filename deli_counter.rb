@@ -11,8 +11,12 @@ def line(array)
 end
 
 def take_a_number(array, number)
+    count = [0]
+    i = count[-1]
+    count.push = [i+1]
+    
     array.push(number)
-    puts "Welcome! You are number #{array.size}."
+    puts "Welcome! You are number #{number}."
 end 
 
 def now_serving(array)
